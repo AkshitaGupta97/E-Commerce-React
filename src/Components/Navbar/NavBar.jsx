@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   const [menu,setMenu] = useState('');
@@ -11,14 +12,14 @@ const NavBar = () => {
         </div>
 
         <ul className="nav-menu">
-            <li onClick={()=>{setMenu('home')}}>Home{menu==='home' ? <hr></hr>:<></>}</li>
-            <li onClick={()=>{setMenu('mens')}}>Mens{menu==='mens' ? <hr></hr>: <></>}</li>
-            <li onClick={()=>{setMenu('womens')}}>Women {menu==='womens' ? <hr></hr>: <></>}</li>
-            <li onClick={()=>{setMenu('kids')}}>Kids {menu==='kids' ? <hr></hr>: <></>}</li>
+            <li onClick={()=>{setMenu('home')}}><Link style={{textDecoration:"none", color:'#971515'}} to='/'>Home</Link>{menu==='home' ? <hr></hr>:<></>}</li>
+            <li onClick={()=>{setMenu('mens')}}> <Link style={{textDecoration:"none",  color:'#971515'}} to='/mens' >Mens</Link> {menu==='mens' ? <hr></hr>: <></>}</li>
+            <li onClick={()=>{setMenu('womens')}}> <Link style={{textDecoration:"none", color:'#971515'}} to='/womens'>Women</Link> {menu==='womens' ? <hr></hr>: <></>}</li>
+            <li onClick={()=>{setMenu('kids')}}> <Link style={{textDecoration:"none", color:'#971515'}} to='/kids' >Kids</Link> {menu==='kids' ? <hr></hr>: <></>}</li>
         </ul>
         <div className="nav-login">
-            <button className='login-btn'>Login</button>
-            <button className='cart-icon'><img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3213984/shopping-cart-icon-sm.png" alt="cart" width='30px' height='28px' /><span id='cartNumber'>0</span> Cart</button>
+            <Link to='login'><button className='login-btn'>Login</button></Link>
+            <Link to='cart' ><button className='cart-icon'><img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3213984/shopping-cart-icon-sm.png" alt="cart" width='30px' height='28px' /><span id='cartNumber'>0</span> Cart</button></Link>
         </div>
     </div>
   )
