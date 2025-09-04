@@ -1,0 +1,18 @@
+
+:root {
+    --primary-color: #A1887F;
+    --secondary-color: #FF7043;
+    --hover-color: #E91E63;
+    --text-color: #FFFFFF;  
+    --font-family: 'Arial, sans-serif';
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333333;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
