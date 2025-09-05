@@ -1,23 +1,29 @@
-
 .popular-item {
   display: flex;
-  flex-wrap: wrap;         /* Allows items to wrap to next line if needed */
-  gap: 20px;               /* Space between items */
-    padding: 20px;
-  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap;
+  /* Allows items to wrap to next line if needed */
+  gap: 20px;
+  /* Space between items */
+  padding: 20px;
+  justify-content: center;
+  /* Center items horizontally */
 }
+
 .popular {
-    padding: 20px;
-   background: linear-gradient(to top, #c07373, #ffffff, #827878);
+  margin-top: 5px;
+  padding: 20px;
+  background: linear-gradient(to top, #c07373, #ffffff, #827878);
 }
-.popular-heading{
-    align-items: center;
-    text-align: center;
-    color: brown;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgb(245, 62, 83);
-    display: inline-block;
-    
+
+.popular-heading {
+  align-items: center;
+  text-align: center;
+  color: brown;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  border-bottom: 2px solid rgb(245, 62, 83);
+  display: inline-block;
+
 }

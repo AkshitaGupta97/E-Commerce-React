@@ -1,0 +1,53 @@
+.offer {
+    color: white;
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 25px;
+    padding: 0 60px;
+    margin-bottom: 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 10px 8px rgb(66, 65, 65);
+    background-image: radial-gradient(circle farthest-corner at 50.3% 47.3%, rgba(113, 42, 92, 1) 0.1%, rgba(40, 25, 46, 1) 90%);
+    ;
+    /* or your page background */
+}
+
+.offer-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+}
+.offer-left h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.offer-left p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.offer-left button {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.offer-left button:hover {
+    background-color: darkred;
+}
+.offer-right {
+    flex: 1;
+   margin-left:20px
+}
