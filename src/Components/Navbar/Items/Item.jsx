@@ -9,10 +9,10 @@ function Item(props) {
         <p>{props.name}</p>
         <div className="item-prices">
             <div className="item-old-price">
-                {props.old_price}
+                 ₹{props.old_price}
             </div>
             <div className="item-new-price">
-                {props.new_price}
+                 ₹{props.new_price}
             </div>
         </div>
     </div>

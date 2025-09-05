@@ -1,33 +1,50 @@
 
 .item {
-    font-size: 14px;
-    color: grey;
-    border: 2px solid rgb(240, 160, 160);
-    padding: 5px 10px;
-    border-radius: 20px;
+  flex: 1 1 200px;         /* Grow, shrink, and set base width */
+  max-width: 320px;        /* Optional: limit max width */
+  min-width: 300px;        /* Optional: set min width */
+  height: 400px;           /* Set equal height */
+  box-sizing: border-box;  /* Include padding/border in size */
+  display: flex;
+  border: 2px solid #cf9797; 
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  border-radius: 12px;      /* Optional: rounded corners */               
+    box-shadow: 0 4px 8px rgba(0, 0, 0); /* Optional: subtle shadow */
+}
+.item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(245, 62, 83);
 }
 .item img {
-    width: 30%;
-    height: 30%;
+    width: 100%;
+    height: 80%;
     object-fit: contain;
-    margin-right: 5px;
     vertical-align: middle;
 }
 .item p {
     display: inline;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 24px;
     color: rgb(212, 26, 85);
 }
 .item-prices {
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 4px;
     font-size: 22px;
     font-weight: bold;
 }
 .item-old-price{
     text-decoration: line-through;
-    color: red;
+    color: rgb(150, 21, 21);
 }
 .item-new-price {
-    color: rgb(163, 6, 147);
+    color: rgb(231, 107, 18);
     margin-right: 10px;
 }

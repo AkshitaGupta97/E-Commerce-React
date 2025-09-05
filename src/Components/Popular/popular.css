@@ -1,10 +1,23 @@
 
 .popular-item {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;         /* Allows items to wrap to next line if needed */
+  gap: 20px;               /* Space between items */
+    padding: 20px;
+  justify-content: center; /* Center items horizontally */
+}
+.popular {
+    padding: 20px;
+   background: linear-gradient(to top, #c07373, #ffffff, #827878);
+}
+.popular-heading{
     align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(245, 62, 83);
+    display: inline-block;
+    
 }
