@@ -1,0 +1,33 @@
+
+.item {
+    font-size: 14px;
+    color: grey;
+    border: 2px solid rgb(240, 160, 160);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.item img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.item p {
+    display: inline;
+    font-weight: bold;
+    color: rgb(212, 26, 85);
+}
+.item-prices {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.item-old-price{
+    text-decoration: line-through;
+    color: red;
+}
+.item-new-price {
+    color: rgb(163, 6, 147);
+    margin-right: 10px;
+}

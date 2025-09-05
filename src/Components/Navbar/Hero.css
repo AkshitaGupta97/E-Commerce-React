@@ -1,0 +1,66 @@
+
+.Hero {
+    background-image: url('https://img.freepik.com/premium-photo/black-golden-shopping-bag-with-copy-space-golden-background_943126-4578.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 90vh;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.hero-part {
+    font-size: 22px;
+    font-weight: 600;
+}
+.hero-part h1 {
+    color: rgb(233, 66, 37);
+}
+.hero-text {
+    margin: 20px 0px;
+    color: whitesmoke;
+    width: 800px;
+}
+.hero-text span {
+    color: #db1154;
+}
+.shop-now-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #db1154;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shop-now-btn:hover {
+    background-color: #950535;
+}
+.brands-ticker {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 0;
+}
+.brands-track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker 20s linear infinite;
+    color: #efbfcf;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
