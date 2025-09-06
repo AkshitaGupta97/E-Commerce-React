@@ -51,7 +51,7 @@
 .newsletter input::placeholder {
     font-size: 16px;
     font-weight: 600;
-    color: rgb(58, 56, 56);
+    color: rgb(150, 147, 147);
 }
 .newsletter input:focus {
     outline: none;
@@ -70,4 +70,19 @@
 }
 .newsletter button:hover {
     background-color: darkred;
+}
+@media (max-width: 900px) {
+    .newsletter {
+        width: 80%;
+        height: auto;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+    .news-img-part {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .newsPart {
+        width: 100%;
+    }
 }

@@ -10,6 +10,7 @@ function Newsletter() {
         <div className='news-img-part'>
             <img src="https://png.pngtree.com/png-vector/20240710/ourmid/pngtree-wow-surprised-women-design-transparent-free-download-png-image_13035360.png" width='60%' height='60%' alt="newsletter" />
             <div className='newsPart'>
+                <input type="text" placeholder='Your Name ..'/>
                 <input type="email" placeholder='Your Email ..' />
                 <button>Subscribe</button>
             </div>

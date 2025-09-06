@@ -14,6 +14,7 @@ function Shop() {
         <Offer />
         <Newcollection />
         <Newsletter />
+
     </div>
   )
 }
