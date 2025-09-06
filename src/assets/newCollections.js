@@ -44,7 +44,7 @@ let new_collections = [
     "id": 6,
     "name": "Dungaree Set",
     "category": "kid",
-    "image": "https://cdn.imgbin.com/9/18/5/imgbin-dungarees-denim-jeans-clothing-pocket-throwing-a-life-preserver-mrACCWZkUfUPEy3Pf7VKzNU0i.jpg",
+    "image": "https://png.pngtree.com/png-clipart/20250225/original/pngtree-elegant-pink-dress-professional-attire-transparent-background-png-image_20512058.png",
     "new_price": 1400,
     "old_price": 1500
   },
@@ -76,7 +76,7 @@ let new_collections = [
     "id": 10,
     "name": "Casual Kurta",
     "category": "male",
-    "image": "https://i.pinimg.com/originals/1a/9d/08/1a9d081a2fb6ab03c33888dbf09519aa.png",
+    "image": "https://png.pngtree.com/png-clipart/20231002/original/pngtree-full-body-formal-men-dress-png-image_13226043.png",
     "new_price": 1200,
     "old_price": 1800
   },

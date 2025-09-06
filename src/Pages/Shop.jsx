@@ -4,6 +4,7 @@ import Hero from '../Components/Navbar/Hero'
 import Popular from '../Components/Popular/Popular'
 import Offer from '../Components/Offers/Offer'
 import Newcollection from '../NewCollection/Newcollection'
+import Newsletter from '../Components/NewsLetter/Newsletter'
 
 function Shop() {
   return (
@@ -12,6 +13,7 @@ function Shop() {
         <Popular />
         <Offer />
         <Newcollection />
+        <Newsletter />
     </div>
   )
 }
